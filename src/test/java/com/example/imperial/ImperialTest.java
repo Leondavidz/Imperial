@@ -22,4 +22,19 @@ public class ImperialTest {
         String result =exp.Orange(a);
         assertEquals(expectedResult,result);
     }
+
+    @Test
+    void yellowTest(){
+        String a ="yellow";
+        String expectedResult = "purple";
+        String result = exp.Yellow(a);
+        assertEquals(expectedResult,result);
+    }
+    @Test
+    void purpleTest(){
+        String a = "purple";
+        String expectedResult = "yellow";
+        String result = exp.Purple(a);
+        assertEquals(expectedResult,result);
+    }
 }
