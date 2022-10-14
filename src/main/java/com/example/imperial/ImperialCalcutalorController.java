@@ -13,4 +13,9 @@ public class ImperialCalcutalorController {
         return a.Red(green);
     }
 
+    @RequestMapping("/Orange")
+    public String Orange(String blue){
+        return a.Orange(blue);
+    }
+
 }
