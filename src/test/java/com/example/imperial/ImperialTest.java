@@ -14,4 +14,12 @@ public class ImperialTest {
         String result = exp.Red(a);
         assertEquals(expectedResult,result);
     }
+
+    @Test
+    void orangeTest(){
+        String a = "orange";
+        String expectedResult = "blue";
+        String result =exp.Orange(a);
+        assertEquals(expectedResult,result);
+    }
 }
